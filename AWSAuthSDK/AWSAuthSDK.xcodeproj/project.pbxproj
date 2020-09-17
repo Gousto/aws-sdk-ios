@@ -199,6 +199,19 @@
 		B9AC6319234F00FA00A713A5 /* AWSAuthUIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B9AC6317234F00F900A713A5 /* AWSAuthUIHelper.m */; };
 		B9AC631A234F00FA00A713A5 /* AWSAuthUIHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = B9AC6318234F00FA00A713A5 /* AWSAuthUIHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B9E2F6CD231EEE63009EAA48 /* AWSMobileClientInitializerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E2F6CC231EEE63009EAA48 /* AWSMobileClientInitializerTests.swift */; };
+		D7F8D4E52513475800D97EA5 /* AWSCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B55D57121F44EC3F005A0E56 /* AWSCore.framework */; };
+		D7F8D4F32513476600D97EA5 /* AWSCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B55D57121F44EC3F005A0E56 /* AWSCore.framework */; };
+		D7F8D5012513476F00D97EA5 /* AWSAuthCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5170D981F466CE5008FD811 /* AWSAuthCore.framework */; };
+		D7F8D50F2513516A00D97EA5 /* AWSAuthCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5170D981F466CE5008FD811 /* AWSAuthCore.framework */; };
+		D7F8D51D2513517400D97EA5 /* AWSCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B55D57121F44EC3F005A0E56 /* AWSCore.framework */; };
+		D7F8D52B2513518100D97EA5 /* AWSAuthCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5170D981F466CE5008FD811 /* AWSAuthCore.framework */; };
+		D7F8D5392513518400D97EA5 /* AWSCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B55D57121F44EC3F005A0E56 /* AWSCore.framework */; };
+		D7F8D5472513519100D97EA5 /* AWSAuthCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5170D981F466CE5008FD811 /* AWSAuthCore.framework */; };
+		D7F8D5552513519500D97EA5 /* AWSCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B55D57121F44EC3F005A0E56 /* AWSCore.framework */; };
+		D7F8D563251351A600D97EA5 /* AWSAuthCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5170D981F466CE5008FD811 /* AWSAuthCore.framework */; };
+		D7F8D571251351AC00D97EA5 /* AWSCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B55D57121F44EC3F005A0E56 /* AWSCore.framework */; };
+		D7F8D57F251351BD00D97EA5 /* AWSCognito.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B55D572A1F44EC3F005A0E56 /* AWSCognito.framework */; };
+		D7F8D58D251351D300D97EA5 /* AWSCognitoIdentityProvider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B55D57361F44EC3F005A0E56 /* AWSCognitoIdentityProvider.framework */; };
 		FA47B5DF246C6CDD0071196D /* AWSCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B55D57121F44EC3F005A0E56 /* AWSCore.framework */; };
 		FA5B0F11246A475500B4185B /* AWSTestResources.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA4A69C22462317A00230849 /* AWSTestResources.framework */; };
 		FA5B0F12246A477D00B4185B /* AWSTestResources.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA4A69C22462317A00230849 /* AWSTestResources.framework */; };
@@ -1481,6 +1494,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7F8D58D251351D300D97EA5 /* AWSCognitoIdentityProvider.framework in Frameworks */,
+				D7F8D57F251351BD00D97EA5 /* AWSCognito.framework in Frameworks */,
+				D7F8D571251351AC00D97EA5 /* AWSCore.framework in Frameworks */,
+				D7F8D563251351A600D97EA5 /* AWSAuthCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1488,6 +1505,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7F8D5392513518400D97EA5 /* AWSCore.framework in Frameworks */,
+				D7F8D52B2513518100D97EA5 /* AWSAuthCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1509,6 +1528,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7F8D5552513519500D97EA5 /* AWSCore.framework in Frameworks */,
+				D7F8D5472513519100D97EA5 /* AWSAuthCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1560,6 +1581,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7F8D5012513476F00D97EA5 /* AWSAuthCore.framework in Frameworks */,
+				D7F8D4F32513476600D97EA5 /* AWSCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1567,6 +1590,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7F8D4E52513475800D97EA5 /* AWSCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1574,6 +1598,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7F8D51D2513517400D97EA5 /* AWSCore.framework in Frameworks */,
+				D7F8D50F2513516A00D97EA5 /* AWSAuthCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
